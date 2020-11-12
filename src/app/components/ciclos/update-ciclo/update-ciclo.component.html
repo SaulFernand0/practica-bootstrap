@@ -1,0 +1,12 @@
+<div class="card">
+    <h5 class="card-header">EDITAR</h5>
+    <div class="card-body">
+    <h5 class="card-title">Editar ciclo</h5>
+    <input class="form-control" [(ngModel)]="ciclo.nombre" type="text" placeholder="Ingresar nombre...">
+      
+    <div style="margin-top: 15px;">
+        <a href="#" class="btn btn-success" (click)="modificarCiclo()" >EDITAR</a>
+        <button type="button" class="btn btn-danger" routerLink="/listar" style="margin-left: 10px;">CANCELAR</button>
+    </div>
+    </div>
+  </div>

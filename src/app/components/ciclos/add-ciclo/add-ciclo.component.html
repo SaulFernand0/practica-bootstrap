@@ -1,0 +1,12 @@
+<div class="card">
+    <h5 class="card-header">REGISTRAR</h5>
+    <div class="card-body">
+    <h5 class="card-title">Registrar ciclo</h5>
+    <input class="form-control" [(ngModel)]="cicloModel.nombre" type="text" placeholder="Ingresar nombre...">
+      
+    <div style="margin-top: 15px;">
+        <a href="#" class="btn btn-success" (click)="create()" >REGISTRAR</a>
+        <button type="button" class="btn btn-danger" routerLink="/listar" style="margin-left: 10px;">CANCELAR</button>
+    </div>
+    </div>
+  </div>
